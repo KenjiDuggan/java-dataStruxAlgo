@@ -54,4 +54,3 @@ public class SinglyLinkedList<E> {
         return answer;
     }
 }
-
