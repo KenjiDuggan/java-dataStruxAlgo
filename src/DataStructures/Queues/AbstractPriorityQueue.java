@@ -1,5 +1,5 @@
 package DataStructures.Queues;
-
+import DataStructures.Comparators.DefaultComparator;
 import DataStructures.Interfaces.Entry;
 import DataStructures.Interfaces.PriorityQueue;
 
