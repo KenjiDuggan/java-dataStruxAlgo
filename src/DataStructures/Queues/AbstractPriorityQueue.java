@@ -31,10 +31,12 @@ public abstract class AbstractPriorityQueue<K, V> implements PriorityQueue<K, V>
             v = value;
         }
     }
-
+    // Instance Variable
     private Comparator<K> comp;
+    // Constructors
     protected AbstractPriorityQueue(Comparator<K> c) { comp = c; }
     protected AbstractPriorityQueue() { this(new DefaultComparator<K>()); }
+    // Methods
     protected int compare(Entry<K, V> a, Entry<K, V> b) {
         return comp.compare(a.getKey(), b.getKey());
     }
